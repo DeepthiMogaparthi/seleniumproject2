@@ -12,7 +12,7 @@ import org.testng.annotations.Test;
 public class FirstTest {
 	@Test
 	public void test()  {
-		  File file = new File("C:\\Users\\Administrator\\Documents\\mySeleniumProject\\mySeleniumProject\\sample.properties");
+		  File file = new File("sample.properties");
 		  
 			FileInputStream fileInput = null;
 			try {
